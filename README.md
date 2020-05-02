@@ -1,3 +1,3 @@
 # TravelTour
-This is simple Travel Website
-Created BY BOOTSTRAP 
+This is simple Travel Website design.
+Using BOOTSTRAP 
