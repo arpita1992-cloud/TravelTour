@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	 <link rel="stylesheet" href="fontawesome/css/all.min.css">
+	 <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
+    <a class="navbar-brand"><img src="images/images.png" height="50" ></a>
+	
+	<button type="button" class="navbar-toggler" data-toggle="collapse"data-target="#nav1">
+	 <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="nav1">
+    <ul class="navbar-nav">
+	  <!--<li><a href="" class="nav-link">Home</a></li>
+	  <li><a href="" class="nav-link">About</a></li>
+	  <li><a href="" class="nav-link">Services</a></li>
+	  <li><a href="" class="nav-link">Contact</a></li>-->
+	  <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	  <li class="nav-item"><a href="booking.html" class="nav-link">Online Booking</a></li>
+	  <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+	    <ul class="dropdown-menu bg-primary">
+		   <li class="nav-item"><a href="hotel.html" class="nav-link" >Hotel Reservation/cottage/resort</a></li>
+		   <li class="nav-item"><a href="vehicle.html" class="nav-link" >Our vehicles</a></li>
+		   
+		</ul>
+	  </li>
+	  <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	</ul>
+	
+	<ul class="navbar-nav ml-auto">
+	  <li class="nav-item active"><a href="" class="nav-link">LogIn</a></li>
+	  <li class="nav-item active"><a href="#myModal" class="nav-link"data-toggle="modal">Sign Up</a></li>
+	</ul>
+	</div>
+ </nav>
+  <div class="jumbotron jumbotron-fluid my-0">
+   <h1 class="display-1 m-2">  Online Bookings</h1>
+   <h3 class="m-2">Booking & Confirmation</h3>
+   <hr>
+   <p class="lead p-2">
+  
+
+Prior confirmation of booking, it is always necessary to avail our tours and services. A tour or service may be considered as confirmed only after an advance payment of 50% is made. The remaining payment has to be made as per the following deposit and payment policies.
+
+
+
+Deposit & Payment
+All deposits and payments will be subject to our cancellation policy.
+
+Confirmation of group (minimum 6 PAX) or exclusive bookings must be done at least 30 days before the departure. In case the tour or the service falls in the middle of long holiday (3 days or more at a stretch) this confirmation will need to be done at least 40 days prior to departure. In both cases full payment has to be made 19 days prior to departure.
+
+For individual booking 50% advance payment has to be made 15 days prior to departure. Rest of the payment has to be made 3 days before departure. For long holidays advance payment of 50% has to be made at least 19 days before departure. Rest of the payment has to be made 4 days before departure.
+
+For Hillside Resort booking one night’s payment has to be made at least 5 days before check in. Rest of the payment has to be made 3 days before check in. In case of long holidays one night’s payment has to be made at least 7 days prior to check in. Rest of the payment has to be made 4 days before check in. 
+
+For vehicle hire, advance payment of 50% has to be made 5 days prior to departure. Rest of the payment has to be made 48 hours before departure. During long holiday period, 50% advance payment has to be made 7 days prior to departure a
+   </p>
+ 
+</div>
+ 
+ <table class="table table-hover">
+<h3>Genaral Cancellation policy</h3>
+ 
+    <tr class="thead-dark">
+      <th scope="col">#</th>
+      <th scope="col">If cancelled </th>
+      <th scope="col">Group/exclusive booking of package trips</th>
+      <th scope="col">Individual booking of package trips</th>
+      <th scope="col">Transport booking</th>
+    </tr>
+  
+  <tbody>
+    <tr class="bg-secondary">
+      <th scope="row">1</th>
+      <td>Before 30 days</td>
+      <td>Nil</td>
+      <td>Nil</td>
+      <td>Nil</td>
+      
+    </tr>
+    <tr class="bg-light">
+      <th scope="row">2</th>
+      <td>Between 22 & 29 days</td>
+      <td>40%</td>
+      <td>Nil</td>
+      <td>Nil</td>
+      
+    </tr>
+    <tr class="bg-secondary">
+      <th scope="row">3</th>
+      <td>Less than 48 hours</td>
+      <td>80%</td>
+      <td>100%</td>
+      <td>75%</td>
+    </tr>
+  </tbody>
+</table>
+<h3><a href="#myModal" class="nav-link"data-toggle="modal"> Booking online Now!!! </a></h3>
+
+   <footer class="footer bg-secondary">
+  
+   
+   	<div class="col-lg-6 text-right ">
+				<ul class="list-inline p-2">
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-facebook fa-2x"></i></a>
+				</li>
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-instragram fa-2x"></i></a>
+				</li>
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-github fa-2x"></i></a>
+				</li>
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+				</li>
+				</ul>
+			</div>
+			<div class="col-lg-6 text-right ">
+	<p class="text-dark  mt-4">&copy;Tour BD ,2019 </p>
+   </div>
+   </footer>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-md modal-dialog-scrollable">
+   <div class="modal-content">
+     <div class="modal-header bg-dark">
+	    <h3 >Tour Booking</h3>
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+	 </div>
+	 <div class="modal-body">
+	    
+	<div class="form-group">
+							<label >First Name</label>
+							<input type="text" class="form-control"placeholder="first name">
+						</div>
+						<div class="form-group">
+							<label >last Name</label>
+							<input type="text" class="form-control"placeholder="password">
+						</div>
+						<div class="form-group">
+							<label >E-mail</label>
+							<input type="email" class="form-control"placeholder="email">
+						</div>
+						<div class="form-group">
+							<label >Mobile</label>
+							<input type="number" class="form-control"placeholder="Mobile">
+						</div>
+						<div class="form-group">
+							<label > Place</label>
+							<select class="form-control">
+							<option>Choose place</option>
+							<option>COX's Bazar</option>
+							<option>Bandarbans</option>
+							<option>Rangamati</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label >Start Date</label>
+							<input type="date" class="form-control"placeholder="Mobile">
+						</div>
+						<div class="form-group">
+							<label >End Date</label>
+							<input type="date" class="form-control"placeholder="Mobile">
+						</div>
+						<div class="form-group">
+							
+							<input type="button"value="Submit" class="btn btn-dark btn-block">
+						</div>
+		
+	 </div>
+	 <div class="modal-footer mr-auto">
+	  <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+	 </div>
+   </div>
+
+   </div>
+   </div>
+   </div>
+ <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

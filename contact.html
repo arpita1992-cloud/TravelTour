@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+	<nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
+    <a class="navbar-brand"><img src="images/images.png" height="50" ></a>
+	
+	<button type="button" class="navbar-toggler" data-toggle="collapse"data-target="#nav1">
+	 <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="nav1">
+    <ul class="navbar-nav">
+	  <!--<li><a href="" class="nav-link">Home</a></li>
+	  <li><a href="" class="nav-link">About</a></li>
+	  <li><a href="" class="nav-link">Services</a></li>
+	  <li><a href="" class="nav-link">Contact</a></li>-->
+	  <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	  <li class="nav-item"><a href="booking.html" class="nav-link">Online Booking</a></li>
+	  <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+	    <ul class="dropdown-menu bg-dark">
+		   <li class="nav-item"><a href="hotel.html" class="nav-link" >Hotel Reservation/cottage/resort</a></li>
+		   <li class="nav-item"><a href="vehicle.html" class="nav-link" >our vehicles</a></li>
+		   <li class="nav-item"><a href="" class="nav-link">Services 3</a></li>
+		</ul>
+	  </li>
+	  <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	</ul>
+	
+	<ul class="navbar-nav ml-auto">
+	  <li class="nav-item active"><a href="#myModal2" class="nav-link"data-toggle="modal">LogIn</a></li>
+	  <li class="nav-item active"><a href="#myModal1" class="nav-link"data-toggle="modal">Sign Up</a></li>
+	</ul>
+	</div>
+ </nav>
+ 
+  <div class="jumbotron jumbotron-fluid  ">
+  
+   <h3 class="text-center ">Branch Office</h3>
+   
+   <p class="lead text-center "style="font-size:15px;">
+  Address:  District:Dhaka<br>
+	Cell:+880-1916-712097, +880-1712-086199<br>
+	Fax: 0088-02-8991750<br>
+	Email: info@Tour BD.com<br>
+	Website: www.Tour BD .com<br>
+
+</p>
+ 
+</div>
+<div class="col-md-5 p-2 bg-light">
+			<h3>Drop us a line</h3>
+				<div class="form-group">
+						<label for="">Your Name</label>
+						
+					<input type="text" class="form-control">
+				</div>
+				
+			<div class="form-group">
+					
+						<label for="">E-mail</label>
+					
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="">Phone</label>
+					<input type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					
+						<label for="">Send Comment</label>
+					
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+							<div class="checkbox">
+  <label><input type="checkbox" value="">I interested</label>
+</div>
+				<div class="form-group">
+				<input type="submit" class="btn btn-primary" value="Submit"class="form-control">
+				</div>
+				</div>
+				
+ <footer class="footer bg-secondary">
+ 
+  
+   
+   	<div class="col-lg-6 text-right ">
+				<ul class="list-inline p-2">
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-facebook fa-2x"></i></a>
+				</li>
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-instragram fa-2x"></i></a>
+				</li>
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-github fa-2x"></i></a>
+				</li>
+				<li class="list-inline-item ">
+					<a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+				</li>
+				</ul>
+			</div>
+			<div class="col-lg-6 text-right ">
+	<p class="text-dark mb-4">&copy;Tour BD ,2019 </p>
+   </div>
+   
+   </footer>
+   
+   
+  
+<div class="modal fade" id="myModal1">
+  <div class="modal-dialog modal-dialog-center modal-dialog-scrollable">
+   <div class="modal-content">
+     <div class="modal-header bg-dark">
+	    <h3>sign-up here!!</h3>
+		<button type="button" data-dismiss="modal" class="close">&times;</button>
+	 </div>
+	 <div class="modal-body">
+	    
+	<div class="form-group">
+							<label >First Name</label>
+							<input type="text" class="form-control"placeholder="first name">
+						</div>
+						<div class="form-group">
+							<label >last Name</label>
+							<input type="text" class="form-control"placeholder="password">
+						</div>
+						<div class="form-group">
+							<label >E-mail</label>
+							<input type="email" class="form-control"placeholder="email">
+						</div>
+						<div class="form-group">
+							<label >Mobile</label>
+							<input type="number" class="form-control"placeholder="Mobile">
+						</div>
+						
+						
+						<div class="form-group">
+							
+							<input type="button"value="Submit" class="btn btn-dark btn-block">
+						</div>
+		
+	 </div>
+	 <div class="modal-footer mr-auto">
+	  <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+	 </div>
+   </div>
+
+   </div>
+   </div>
+   
+   
+     <div class="modal fade" id="myModal2">
+  <div class="modal-dialog modal-dialog-center modal-dialog-scrollable">
+   <div class="modal-content">
+     <div class="modal-header bg-dark">
+	    <h3>log-in</h3>
+		<button type="button" data-dismiss="modal" class="close">&times;</button>
+	 </div>
+	 <div class="modal-body">
+	    
+	<div class="form-group">
+							<label >First Name</label>
+							<input type="text" class="form-control"placeholder="first name">
+						</div>
+						
+						<div class="form-group">
+							<label >E-mail</label>
+							<input type="email" class="form-control"placeholder="email">
+						</div>
+						
+						
+						
+						<div class="form-group">
+							
+							<input type="button"value="Log-in" class="btn btn-dark btn-block">
+						</div>
+		
+	 </div>
+	 <div class="modal-footer mr-auto">
+	  <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+	 </div>
+   </div>
+
+   </div>
+   </div>
+   </div>
+   <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
